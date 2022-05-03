@@ -7,20 +7,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Lato:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Portfolio.css" />
-    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <style>
       #banniere {
         background-image: url(https://cdn.glitch.me/f357e8aa-9156-47d3-b648-04ba3dde230d%2Fimages.png?v=1638883415012);
         background-size: 100% 500px;
-      height: 400px;
+      height: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
         color: white;
         font-weight: bold;
         font-size: 50px;
-        padding-top: 100px;
       }
 
       .big {
@@ -51,14 +51,25 @@
               border-radius: 15px;
       }
     
-      .skill {
-          background-color: rgb(116, 194, 92);
+      .progression {
+          background-color: #660606;
           color: white;
           padding: 1%;
           text-align: right;
           font-size: 20px;
-              border-radius: 15px;
+          border-radius: 15px;
+          animation: progress 1500ms ease-in 1;
+
+
       }
+
+
+
+      @keyframes progress {
+            from {
+                width: 0;
+            }
+        }
     
       .html {
           width: 85%;
@@ -75,7 +86,7 @@
           width: 90%;
       }
       .arduino {
-          width: 25%;
+          width: 10%;
       }
       .java {
           width: 50%;
@@ -107,6 +118,15 @@
           width: 70%;
       }
  
+.Créatif img{width: 40%;
+  height:80%;
+}
+
+.Créatif {text-align: center;
+  font-weight: bold;
+}
+
+#conteur_qualité{display: flex;}
 
     </style>
   </head>
@@ -190,14 +210,14 @@
         <label for="file">HTML </label>
         <br />
         <div class="container">
-          <div class="skill html">85%</div>
+          <div class="progression html">85%</div>
       </div>
 
         <br />
         <label for="file">CSS </label>
         <br />
         <div class="container">
-          <div class="skill css">85%</div>
+          <div class="progression css">85%</div>
       </div>
 
         <br />
@@ -205,7 +225,7 @@
         <label for="file">PHP</label>
         <br />
         <div class="container">
-          <div class="skill php">70%</div>
+          <div class="progression php">70%</div>
       </div>
 
         <br />
@@ -213,35 +233,35 @@
         <label for="file">SQL</label>
         <br />
         <div class="container">
-          <div class="skill sql">90%</div>
+          <div class="progression sql">90%</div>
       </div>
 
         <br />
         <label for="file">Java </label>
         <br />
         <div class="container">
-          <div class="skill java">50%</div>
+          <div class="progression java">50%</div>
       </div>
 
         <br />
         <label for="file">JavaScript </label>
         <br />
         <div class="container">
-          <div class="skill js">15%</div>
+          <div class="progression js">15%</div>
       </div>
 
         <br />
         <label for="file">ARDUINO</label>
         <br />
         <div class="container">
-          <div class="skill arduino">15%</div>
+          <div class="progression arduino">10%</div>
       </div>
 
       <br>
       <label for="file">Python</label>
       <br />
       <div class="container">
-        <div class="skill python">50%</div>
+        <div class="progression python">50%</div>
     </div>
 
         <h3>Compétences Informatique :</h3>
@@ -251,14 +271,14 @@
         </label>
         <br />
         <div class="container">
-          <div class="skill cisco">80%</div>
+          <div class="progression cisco">80%</div>
       </div>
 
         <br />
         <label for="file">Utilisation de l'environnement Linux</label>
         <br />
         <div class="container">
-          <div class="skill linux">75%</div>
+          <div class="progression linux">75%</div>
       </div>
 
       <br>
@@ -267,14 +287,14 @@
         <label for="file">Utilisation de PHPMyAdmin </label>
         <br />
         <div class="container">
-          <div class="skill phpmyadmin">85%</div>
+          <div class="progression phpmyadmin">85%</div>
       </div>
 
         <br />
         <label for="file">Mise en place d'un serveur Apache</label>
         <br />
         <div class="container">
-          <div class="skill apache">80%</div>
+          <div class="progression apache">80%</div>
       </div>
 
       <br>
@@ -282,14 +302,14 @@
       <label for="file">Utilisation du Framework Symfony</label>
       <br />
       <div class="container">
-        <div class="skill symfony">55%</div>
+        <div class="progression symfony">55%</div>
     </div>
 
       <br />
       <label for="file">Gestion d'erreurs</label>
       <br />
       <div class="container">
-        <div class="skill erreur">70%</div>
+        <div class="progression erreur">70%</div>
     </div>
 
     <br>
@@ -305,8 +325,11 @@
         <p>
           Lors de mes formations, j'ai pû réaliser divers stages m'offrant de l'expérience.
           <br>
-          En 3ème j'avais réalisé un stage d'une durée de 1 semaine, lors de ce stage j'ai assistais aux actions qu'un administrateur réseaux réalise.
+          En 3ème j'avais réalisé un stage d'une durée de 1 semaine, lors de ce stage j'ai assistais aux journées d'un administrateur réseaux.
           <br>
+          Ensuite j'ai fait un BAC STI2D, durant la seconde année de ce BAC j'ai été amené à faire un projet de groupe dans lequel nous avions proposé une solution applicative pour des écrans, le nom du projet était écran intélligent dans lequel nous avons codé en arduino.
+          <br>
+
           Puis lors de ma 1ère année en BTS SIO, j'ai réalisé un stage de 5 semaines auquel j'ai effectué du développement de Webdesign et j'ai fait de la gestion de support.
           <br>
           Dernièrement lors de ma seconde année en BTS SIO, j'ai effectué un stage de 5 semaines auquel j'ai dû adapter un projet symfony à une version plus récente, à gérer les erreurs rencontrées et à adapter des librairies.
@@ -320,10 +343,10 @@
       <div class="moyen">
         <h1>Mes qualités :</h1>
         <ul>
-          <li>Passionné</li>
-          <li>Curieux</li>
-          <li>Esprit d'équipe</li>
-          <li>Créatif</li>
+        <div id="conteur_qualité"><div class="Créatif"><img src="https://th.bing.com/th/id/OIP.9-l9QQfhMfbvYNTRGgp30gHaHa?pid=ImgDet&rs=1" alt=""><br>Curieux</div>
+      <div class="Créatif"><img src="passion.png" alt=""><br>Passioné</div>
+    <div class="Créatif"><img src="https://groupe-polmar.fr/wp-content/uploads/2019/09/icone8.png" alt=""><br>Esprit d'équipe</div>
+  <div class="Créatif"><img src="https://static.vecteezy.com/ti/vecteur-libre/p1/1500267-icone-idee-creative-gratuit-vectoriel.jpg" alt=""><br>Créatif</div></div>
         </ul>
       </div>
     </div>
@@ -332,10 +355,10 @@
 
     <div class="big">
       <div class="moyen">
-        <h1>Mon avenir :</h1>
+        <h1>Mes objectifs :</h1>
         <p>
-          Actuellement je vais continuer mes études après mon BTS en faisant soit une licence professionnelle soit un bachelor. Puis par la suite surêment continué vers un master <br>
-          Pour dans l'avenir, devenir un développeur full stack.
+          Actuellement je vais continuer mes études après mon BTS en faisant soit une licence professionnelle soit un bachelor. Puis par la suite surêment continuer jusqu'à BAC +5 <br>
+          J'aimerai devenir un développeur full stack.
         </p>
       </div>
     </div>
@@ -365,9 +388,14 @@
           : elliot.guiberteau@gmail.com
         </div>
         <div id="num">
-          <span class="iconify" data-icon="bi:phone-fill"></span> Phone : ***
+          <span class="iconify" data-icon="bi:phone-fill"></span> Téléhone : 0768315933
         </div>
       </div>
     </footer>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

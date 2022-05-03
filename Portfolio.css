@@ -46,10 +46,10 @@ display: flex;
 justify-content: space-evenly;}
 
 #Réseaux{
-flex-grow: 1;
-text-align: center;
+  width: 50%;
 margin-top: 20px;
 font-size: 20px;
+
 }
 
 #Réseaux div{margin-top: 20px;}
@@ -59,8 +59,6 @@ margin-right: 15px;}
 
 
 #Contact{
-flex-grow: 1;
-text-align: center;
 margin-top: 20px;
 margin-bottom: 20px;
 font-size: 20px;
@@ -273,6 +271,12 @@ margin-right: 30px;
       font-size: 18px;
 
     }
+
+#Réseaux{
+  width: 100%;
+}
+
+       footer{    text-align: center;}
     
     nav > ul {
       display: flex;
@@ -381,6 +385,7 @@ margin-right: 30px;
    footer{
      min-height: 200px;
      display:block;
+ 
    }
     
   }
