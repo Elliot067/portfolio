@@ -3,7 +3,7 @@
     justify-content: center;
     font-size:x-large;
     font-weight: bold;
-    position:relative;
+    position:fixed;
   background-color: #272822;
   color:white;
   border-bottom: solid 1px black;
